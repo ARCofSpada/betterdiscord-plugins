@@ -1,6 +1,6 @@
 //META{"name":"killosu"}*//
 
-class killxd {
+class killosu {
  constructor() {
   this.processChat = () => {
 	setTimeout(function() {
