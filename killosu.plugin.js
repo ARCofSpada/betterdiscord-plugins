@@ -1,13 +1,13 @@
-//META{"name":"killxd"}*//
+//META{"name":"killosu"}*//
 
 class killxd {
  constructor() {
   this.processChat = () => {
 	setTimeout(function() {
 		$(".comment .markup, .comment .markup>span").each(function() {
-			var tagRegex = /(XD)/igm;
+			var tagRegex = /(osu)/igm;
 			var html = $(this).html();
-			$(this).html(html.replace(tagRegex, 'I\'m a retard lol.'));
+			$(this).html(html.replace(tagRegex, 'shit'));
 		});
 	 },100);
    }
@@ -25,10 +25,10 @@ class killxd {
 	 
   onSwitch() { this.processChat(); }
 
-  getName		        () { return 'killxd'; }
-  getDescription    	() { return 'replaces shitty xds.'; }
-  getAuthor		      	() { return 'Arashiryuu'; }
-  getVersion		    () { return '0.0.2'; }
-  getSettingsPanel		() { return 'Go away!'; }
+  getName		        () { return 'killosu'; }
+  getDescription    	() { return 'replaces osu with shit, for you rhythm game elitists.'; }
+  getAuthor		      	() { return 'Rhythm Lunatic'; }
+  getVersion		    () { return '0.0.1'; }
+  getSettingsPanel		() { }
 };
 /*@end@*/
